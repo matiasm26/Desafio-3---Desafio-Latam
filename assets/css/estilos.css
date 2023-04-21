@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+/* TITULO E IMAGEN PRINCIPAL */
+
+header h1{
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+}
+
+.fotoprincipal img{
+    width: 100%;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.contenedor1 .descripcion-iguana{
+    display: inline-block;
+    width: 30%;
+    margin: 95px 250px 0px 285px;
+    vertical-align: top;
+}
+
+.contenedor1 .descripcion-iguana p{
+    color: #fff;
+}
+
+.contenedor1 .foto1{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.contenedor1 .foto1 img{
+    width: 500px;
+    height: 300px;
+}
+
+.contenedor2{
+    background-color: #36462e;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.contenedor2 h1{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 35px;
+}
+
+.contenedor2 .iconos{
+    width: 60%;
+    margin: 20px 395px;
+    text-align: center;
+}
+
+.contenedor2 .icon{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 50px;
+}
+
+/* SECCION DE IMAGENES */
+
+.contenedor3{
+    padding: 40px 0px;
+}
+
+.contenedor3 .fotos-iguanas{
+    margin: 0px 300px;
+}
+
+.contenedor3 .iguana{
+    display: inline-block;
+}
+
+.contenedor3 .iguana img{
+    width: 300px;
+    height: 180px;
+    margin: 0px 50px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #36462e;
+    height: 90px;
+    border: 1px solid black;
+    padding-top: 55px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 750px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+footer a:hover{
+    color: #969393;
+}
